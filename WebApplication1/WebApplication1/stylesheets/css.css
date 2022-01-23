@@ -1,0 +1,61 @@
+﻿/* TODO 
+Use the color techniques that you have learned to create a consistent color scheme for the application.
+This should include background colors, text colors, link colors, and optionally, text and/or box shadows
+Update HTML as necessary with Id’s and Classes.
+Commit changes and merge with the master branch. Push the updated version of the master branch to the remote repo.
+    Create a new branch called Fonts.
+Choose and/or create selectors in your CSS to apply the following styling related fonts:
+Update font families for headings and body text.
+At least one example of an imported font.
+Incorporate one or more icons using Font Awesome.
+Commit changes and merge with master. Push the updated version of the master branch to the remote repo.
+    Create a new branch off the master branch.
+Make sure there is some padding in the heading, main body content and the footer.
+Experiment with centering all the content on the page inside the screen (hint: margin auto)
+Experiment with adding complete or partial borders to the header or footer.
+Experiment with adjusting the space between block level elements – remember that setting the margins of adjacent objects will result in the larger margin value being used.
+Commit changes and merge into master. Push the updated master branch to the remote repo.
+    Finish implementing CSS Box model properties in the header, main body content, and footer on all HTML pages.
+Use CSS Box Model properties to style the card layout for the class subject images and descriptions
+Add a border around the card layout when the user hovers over it.
+Create a two-column layout on the Team.html page.
+Make sure to create a new branch for each portion of work, merge than branch with master, and push the updated version of the master branch to the remote repo.
+*/
+
+body {
+
+   }
+header {
+    background-color: mediumpurple;
+    color: black;
+}
+header h1 {
+    font-weight: bold;
+    font-style: italic;
+    font-size: xx-large;
+    text-align: center;
+}
+.headingStyle {
+    background-color: slategrey;
+    color: azure;
+}
+header h2 {
+    background-color: lightgoldenrodyellow;
+    color: mediumpurple;
+    text-align: center;
+}
+#footer {
+    background-color: black;
+    color: azure;
+    font-style: italic;
+    font-size: small;
+}
+
+#colorGradient1 {
+    background-image: radial-gradient(circle farthest-side at 50% 50%, pink, purple, blue);
+}
+
+nav ul li {
+    text-align: center;
+    display: inline-block;
+}
