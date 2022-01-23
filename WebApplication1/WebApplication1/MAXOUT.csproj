@@ -69,6 +69,22 @@
   <ItemGroup>
     <Content Include="classes.html" />
     <Content Include="contact.html" />
+    <Content Include="images\178396631_4270600349618880_2116996181401160830_n.jpg" />
+    <Content Include="images\230587734_4555208141158098_5729183925891873913_n.jpg" />
+    <Content Include="images\34700797_1931681860177419_6964889898302046208_n.jpg" />
+    <Content Include="images\34844877_1934984886513783_5697516590522695680_n.jpg" />
+    <Content Include="images\35102480_1938184299527175_3988280719527903232_n.jpg" />
+    <Content Include="images\42889866_2106821075996829_4590978417725276160_n.jpg" />
+    <Content Include="images\42985370_2106821622663441_7419604257797570560_n.jpg" />
+    <Content Include="images\44197020_2127766200568983_5596013950538874880_n.jpg" />
+    <Content Include="images\55611054_10161566310385427_8847936576005603328_n.jpg" />
+    <Content Include="images\55905143_10161566308725427_1006282537913286656_n.jpg" />
+    <Content Include="images\56120109_10161566300370427_4550841926869319680_n.jpg" />
+    <Content Include="images\56640003_10161566308380427_4925516345283444736_n.jpg" />
+    <Content Include="images\Chris.jpg" />
+    <Content Include="images\DJ.jpg" />
+    <Content Include="images\Raishaun.jpg" />
+    <Content Include="images\Robbie eating pancakes.jpg" />
     <Content Include="stylesheets\css.css" />
     <Content Include="team.html" />
     <Content Include="index.html" />
@@ -87,7 +103,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="images\" />
     <Folder Include="scripts\" />
   </ItemGroup>
   <PropertyGroup>

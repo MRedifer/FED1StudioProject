@@ -20,6 +20,23 @@ Use CSS Box Model properties to style the card layout for the class subject imag
 Add a border around the card layout when the user hovers over it.
 Create a two-column layout on the Team.html page.
 Make sure to create a new branch for each portion of work, merge than branch with master, and push the updated version of the master branch to the remote repo.
+    Create a new branch called Logo.
+Use one of the suggested resources to find an image, or perform a Google search, and save it to the images folder.
+Position the logo image in the <header> of each HTML page with the Company Name and slogan in the header as well.
+If the image is too large, use a photo editor to create a new version that is scaled down to the desired size and replace the image in the project.
+Or, for just a quick mock-up, use CSS to set the width or height, and let the other dimension be proportionately set automatically.
+Commit changes and merge with master. Push the updated master branch to the remote repo.
+    Finish implementing CSS Box model properties in the header, main body content, and footer on all HTML pages.
+Use CSS Box Model properties to style the card layout for the class subject images and descriptions
+Add a border around the card layout when the user hovers over it.
+Create a two-column layout on the Team.html page.
+Make sure to create a new branch for each portion of work, merge than branch with master, and push the updated version of the master branch to the remote repo.
+    Create a new branch off master.
+Make each class subject card a named anchor link that scrolls down to a table that lists the classes offered about that subject
+Tables should have a <thead>, <tbody>, and <tfoot>
+Write custom styling for your tables in custom.css
+Commit changes and merge into master. Push the updated version of the master branch to the remote repo.
+
 */
 
 body {
@@ -55,7 +72,7 @@ header h2 {
     background-image: radial-gradient(circle farthest-side at 50% 50%, pink, purple, blue);
 }
 
-nav ul li {
+header nav ul li {
     text-align: center;
     display: inline-block;
 }
