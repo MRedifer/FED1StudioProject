@@ -83,8 +83,15 @@
     <Content Include="images\56640003_10161566308380427_4925516345283444736_n.jpg" />
     <Content Include="images\Chris.jpg" />
     <Content Include="images\DJ.jpg" />
+    <Content Include="images\KCFGC png.png" />
+    <Content Include="images\KCFGC Vapor.png" />
+    <Content Include="images\MAXOUT Kanji.png" />
     <Content Include="images\Raishaun.jpg" />
+    <Content Include="images\Red Kanji.png" />
     <Content Include="images\Robbie eating pancakes.jpg" />
+    <Content Include="images\TeamKC.png" />
+    <Content Include="images\Vertical Maxout.png" />
+    <Content Include="images\Vewlix.png" />
     <Content Include="stylesheets\css.css" />
     <Content Include="team.html" />
     <Content Include="index.html" />

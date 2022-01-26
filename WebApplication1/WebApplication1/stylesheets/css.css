@@ -1,12 +1,4 @@
 ﻿/* TODO 
-Use the color techniques that you have learned to create a consistent color scheme for the application.
-This should include background colors, text colors, link colors, and optionally, text and/or box shadows
-Update HTML as necessary with Id’s and Classes.
-Commit changes and merge with the master branch. Push the updated version of the master branch to the remote repo.
-    Create a new branch called Fonts.
-Choose and/or create selectors in your CSS to apply the following styling related fonts:
-Update font families for headings and body text.
-At least one example of an imported font.
 Incorporate one or more icons using Font Awesome.
 Commit changes and merge with master. Push the updated version of the master branch to the remote repo.
     Create a new branch off the master branch.
@@ -39,27 +31,28 @@ Commit changes and merge into master. Push the updated version of the master bra
 
 */
 
-body {
+@import url('https://fonts.googleapis.com/css?family=Oswald:500');
 
+body {
+    background-color: black;
+    color: white;
    }
 header {
-    background-color: mediumpurple;
-    color: black;
+    
 }
 header h1 {
     font-weight: bold;
     font-style: italic;
-    font-size: xx-large;
-    text-align: center;
+    font-size: large;
+    text-align: left;
 }
 .headingStyle {
     background-color: slategrey;
     color: azure;
 }
 header h2 {
-    background-color: lightgoldenrodyellow;
-    color: mediumpurple;
-    text-align: center;
+    color: white;
+    text-align: left;
 }
 #footer {
     background-color: black;
@@ -68,11 +61,33 @@ header h2 {
     font-size: small;
 }
 
-#colorGradient1 {
-    background-image: radial-gradient(circle farthest-side at 50% 50%, pink, purple, blue);
+.back {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+    #colorGradient1 {
+    background-image: radial-gradient(circle farthest-side at 50% 50%, #FF1AFF, #4693D6);
 }
 
-header nav ul li {
+nav {
+    width: 100%;
+    position: fixed;
+    top: 50px;
     text-align: center;
+}
+
+nav a {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    position: relative;
     display: inline-block;
 }
