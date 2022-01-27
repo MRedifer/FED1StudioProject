@@ -83,6 +83,8 @@
     <Content Include="images\56640003_10161566308380427_4925516345283444736_n.jpg" />
     <Content Include="images\Chris.jpg" />
     <Content Include="images\DJ.jpg" />
+    <Content Include="images\favicon.ico" />
+    <Content Include="images\icon.png" />
     <Content Include="images\KCFGC png.png" />
     <Content Include="images\KCFGC Vapor.png" />
     <Content Include="images\MAXOUT Kanji.png" />
