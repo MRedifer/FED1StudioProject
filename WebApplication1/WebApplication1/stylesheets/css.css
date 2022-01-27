@@ -1,21 +1,9 @@
 ﻿/* TODO 
-    Create a new branch off the master branch.
-Make sure there is some padding in the heading, main body content and the footer.
-Experiment with centering all the content on the page inside the screen (hint: margin auto)
-Experiment with adding complete or partial borders to the header or footer.
-Experiment with adjusting the space between block level elements – remember that setting the margins of adjacent objects will result in the larger margin value being used.
-Commit changes and merge into master. Push the updated master branch to the remote repo.
     Finish implementing CSS Box model properties in the header, main body content, and footer on all HTML pages.
 Use CSS Box Model properties to style the card layout for the class subject images and descriptions
 Add a border around the card layout when the user hovers over it.
 Create a two-column layout on the Team.html page.
 Make sure to create a new branch for each portion of work, merge than branch with master, and push the updated version of the master branch to the remote repo.
-    Create a new branch called Logo.
-Use one of the suggested resources to find an image, or perform a Google search, and save it to the images folder.
-Position the logo image in the <header> of each HTML page with the Company Name and slogan in the header as well.
-If the image is too large, use a photo editor to create a new version that is scaled down to the desired size and replace the image in the project.
-Or, for just a quick mock-up, use CSS to set the width or height, and let the other dimension be proportionately set automatically.
-Commit changes and merge with master. Push the updated master branch to the remote repo.
     Finish implementing CSS Box model properties in the header, main body content, and footer on all HTML pages.
 Use CSS Box Model properties to style the card layout for the class subject images and descriptions
 Add a border around the card layout when the user hovers over it.
@@ -89,3 +77,113 @@ nav a {
     position: relative;
     display: inline-block;
 }
+
+.back {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.thx {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 15px;
+}
+
+        nav a:before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 3px;
+            background: #16151b;
+            top: 47%;
+            animation: out 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
+        }
+
+        nav a:hover:before {
+            animation: in 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
+        }
+
+@keyframes in {
+    0% {
+        width: 0;
+        left: 0;
+        right: auto;
+    }
+
+    100% {
+        left: 0;
+        right: auto;
+        width: 100%;
+    }
+}
+
+@keyframes out {
+    0% {
+        width: 100%;
+        left: auto;
+        right: 0;
+    }
+
+    100% {
+        width: 0;
+        left: auto;
+        right: 0;
+    }
+}
+
+@keyframes show {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@for $i from 1 through 5 {
+    nav a:nth-child(#{$i}) {
+        animation: show .2s
+    }
+}
+    th {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    td, th {
+        padding: .3em;
+    }
+
+    thead {
+        background-color: #96f3fa;
+    }
+
+    tfoot {
+        background-color: teal;
+    }
+
+        tfoot tr, tfoot td {
+            border: 0;
+        }
+
+    tbody tr:nth-child(even) {
+        background-color: deepskyblue;
+    }
+
+    table, tr, td, th {
+        border: 2px outset white;
+        border-collapse: collapse;
+    }
+
+    table {
+        margin: auto;
+        margin-bottom: 2em;
+    }
