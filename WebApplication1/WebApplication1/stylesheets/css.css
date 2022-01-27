@@ -31,7 +31,7 @@ Commit changes and merge into master. Push the updated version of the master bra
 
 */
 
-@import url('https://fonts.googleapis.com/css?family=Oswald:500');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 body {
     background-color: black;
@@ -80,7 +80,7 @@ nav {
 }
 
 nav a {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-weight: 500;
     text-transform: uppercase;
     text-decoration: none;
