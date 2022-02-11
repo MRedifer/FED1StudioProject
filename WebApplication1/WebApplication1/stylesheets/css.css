@@ -49,7 +49,9 @@ header h2 {
   }
 
 
-
+  #clear {
+      clear: both;
+  }
 
 
 aside h2 {
