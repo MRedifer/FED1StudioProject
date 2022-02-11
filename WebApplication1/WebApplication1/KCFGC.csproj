@@ -81,9 +81,12 @@
     <Content Include="images\55905143_10161566308725427_1006282537913286656_n.jpg" />
     <Content Include="images\56120109_10161566300370427_4550841926869319680_n.jpg" />
     <Content Include="images\56640003_10161566308380427_4925516345283444736_n.jpg" />
+    <Content Include="images\91657.jpg" />
     <Content Include="images\Chris.jpg" />
+    <Content Include="images\DBFZlogo.png" />
     <Content Include="images\DJ.jpg" />
     <Content Include="images\favicon.ico" />
+    <Content Include="images\GGSlogo.jpg" />
     <Content Include="images\icon.png" />
     <Content Include="images\KCFGC png.png" />
     <Content Include="images\KCFGC Vapor.png" />
@@ -92,7 +95,11 @@
     <Content Include="images\Red Kanji.png" />
     <Content Include="images\RileyKatana.jpg" />
     <Content Include="images\Robbie eating pancakes.jpg" />
+    <Content Include="images\SFVLogo.png" />
+    <Content Include="images\SGlogo.png" />
     <Content Include="images\TeamKC.png" />
+    <Content Include="images\Tekken7logo.jpg" />
+    <Content Include="images\UMVC3logo.png" />
     <Content Include="images\Vertical Maxout.png" />
     <Content Include="images\Vewlix.png" />
     <Content Include="stylesheets\css.css" />
